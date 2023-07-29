@@ -11,7 +11,6 @@ const NAVBAR_DATA = [
 export default function Navbar() {
   const [active, setActive] = useState(1);
   const [isNavbarOpened, setIsNavbarOpened] = useState(false);
-  console.log(isNavbarOpened);
   return (
     <div className="flex w-screen z-20 fixed justify-between items-center px-4 md:px-16 py-5 bg-white md:bg-transparent">
       <Image src={"/assets/logo-desa.png"} alt="logo desa" width={50} height={50} />
