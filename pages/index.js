@@ -3,8 +3,21 @@ import Introduction from "../components/main/Introduction";
 import Wisata from "../components/main/Wisata";
 import Navbar from "../components/navbar/Navbar";
 import ReactPlayer from "react-player";
+import destinasi from "../public/destinasi.json";
 
-export default function Home() {
+export async function getStaticProps() {
+  // Read the JSON data using import
+  const data = destinasi;
+
+  // Return the fetched data as props
+  return {
+    props: {
+      data,
+    },
+  };
+}
+
+export default function Home({ data }) {
   return (
     <>
       <div>
@@ -19,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       <Introduction />
-      <Wisata />
+      <Wisata data={data} />
       <Footer />
     </>
   );

@@ -31,7 +31,7 @@ export default function Footer() {
             </svg>
           </Link>
         </div>
-        <p className="text-white font-rubik max-w-lg text-center">Jl. Raya Pangalengan No.327, Margamulya, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378, Indonesia</p>
+        <p className="text-white font-rubik max-w-lg text-center">RH55+M92, Pulosari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378, Indonesia</p>
       </div>
       <div className="bg-[#249EA0] py-2">
         <p className="w-full text-center text-sm font-rubik text-white">Developed by Tim KKN-PPM UGM - Kisah Panorama 2023</p>
