@@ -20,13 +20,13 @@ export default function Navbar() {
     }
   }, [router.asPath]);
   return (
-    <div className="flex w-screen z-20 fixed justify-between items-center px-4 md:px-16 py-5 bg-white md:bg-transparent">
+    <div className="flex w-screen z-20 fixed justify-between items-center px-4 md:px-5 lg:px-16 py-5 bg-white md:bg-transparent">
       <Link href={"/"} legacyBehavior>
         <a>
           <Image src={"/assets/logo-desa.png"} alt="logo desa" width={50} height={50} />
         </a>
       </Link>
-      <div className="uppercase md:flex gap-x-10 font-rubik font-extrabold hidden">
+      <div className="uppercase md:flex gap-x-5 lg:gap-x-10 font-rubik font-extrabold hidden">
         {NAVBAR_DATA.map((item, i) => {
           return (
             <Link href={item.route} key={i} legacyBehavior>
@@ -60,7 +60,7 @@ export default function Navbar() {
         </svg>
 
         {isNavbarOpened && (
-          <div className="fixed bg-white flex flex-col justify-center items-center gap-y-2 py-4 top-20 w-full left-0 z-30 px-7">
+          <div className="fixed drop-shadow-2xl bg-white flex flex-col justify-center items-center gap-y-2 py-4 top-20 w-full left-0 z-30 px-7">
             {NAVBAR_DATA.map((item) => {
               return (
                 <p
