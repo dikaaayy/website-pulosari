@@ -15,6 +15,10 @@
   }
 }
 
+.scrolling {
+  transition: transform 0.3s ease;
+}
+
 @layer base {
   .font-outline-1 {
     -webkit-text-stroke: 0.1px white;

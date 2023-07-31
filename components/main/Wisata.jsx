@@ -1,24 +1,23 @@
 import Link from "next/link";
-import { useState } from "react";
+import Slider from "react-slick";
+
+// Import slick-carousel CSS
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return <div className={className} style={{ ...style, display: "block", border: "2px" }} onClick={onClick} />;
+}
 
 export default function Wisata({ data }) {
-  const [destinasi, setDestinasi] = useState(data);
-
-  const handleRightButtonClick = () => {
-    setDestinasi((prevData) => {
-      // Remove the first element and add it to the end of the array
-      const newData = [...prevData];
-      newData.push(newData.shift());
-      return newData;
-    });
-  };
-  const handleLeftButtonClick = () => {
-    setData((prevData) => {
-      // Remove the last element and add it to the beginning of the array
-      const newData = [...prevData];
-      newData.unshift(newData.pop());
-      return newData;
-    });
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
   };
   return (
     <div className="bg-[#1ebec0] font-rubik text-white rounded-t-[2.5rem] py-10 px-48 relative">
@@ -43,23 +42,17 @@ export default function Wisata({ data }) {
         sapiente at error eius eligendi consectetur odit deleniti harum iusto. Ad officiis distinctio nobis provident quos voluptatum numquam nisi voluptatem?
       </p>
 
-      <div className="mt-5 flex gap-x-10 overflow-x-hidden">
-        {destinasi.map((item) => {
+      <Slider {...settings}>
+        {data.map((item) => {
           return (
             <Link legacyBehavior href={`/wisata/${item.id}`} key={item.id}>
-              <a className="md:w-1/5 flex-shrink-0 hover:shadow-inner shadow-black group h-[50vh] rounded-2xl overflow-hidden bg-center bg-cover" style={{ backgroundImage: `url(${item.foto[0]})` }}>
-                <div className="group-hover:bg-gradient-to-b from-transparent to-[#eaac2f] w-full h-full flex flex-col items-center justify-end">
-                  <p className="font-medium text-center text-xl font-rubik scale-0 transition-all duration-100 group-hover:scale-100 mb-5">{item.nama}</p>
-                </div>
+              <a className="group-hover:bg-gradient-to-b rounded-xl mx-5 from-transparent to-[#eaac2f] h-[50vh] flex flex-col items-center justify-end bg-center bg-cover" style={{ backgroundImage: `url(${item.foto[0]})` }}>
+                <p className="font-medium text-center text-xl font-rubik scale-0 transition-all duration-100 group-hover:scale-100 mb-5">{item.nama}</p>
               </a>
             </Link>
           );
         })}
-      </div>
-      <div>
-        <button onClick={handleLeftButtonClick}>left</button>
-        <button onClick={handleRightButtonClick}>right</button>
-      </div>
+      </Slider>
     </div>
   );
 }
