@@ -2,6 +2,7 @@
   {
     "id": 1,
     "nama": "Padaawas Hills",
+    "tipe": "Wisata Alam",
     "path": "padaawas",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HLKhsb2.jpg", "https://iili.io/HLKhPR4.jpg", "https://iili.io/HLKhpUb.jpg", "https://iili.io/HLKhiOl.jpg"],
@@ -10,6 +11,7 @@
   {
     "id": 2,
     "nama": "RUMAH PENGABDI SETAN",
+    "tipe": "Wisata Alam",
     "path": "pengabdisetan",
     "thumbnail": "https://iili.io/HLKwm9j.jpg",
     "foto": ["https://iili.io/HLKN9tV.jpg", "https://iili.io/HLKwru4.jpg", "https://iili.io/HLKwS8G.jpg", "https://iili.io/HLKwD8b.jpg"],
@@ -18,6 +20,7 @@
   {
     "id": 3,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor2",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
@@ -26,6 +29,7 @@
   {
     "id": 4,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor3",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
@@ -34,6 +38,7 @@
   {
     "id": 5,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor4",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
@@ -42,6 +47,7 @@
   {
     "id": 6,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor6",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
@@ -50,6 +56,7 @@
   {
     "id": 7,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor7",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
@@ -58,6 +65,7 @@
   {
     "id": 8,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor7",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
@@ -66,6 +74,7 @@
   {
     "id": 9,
     "nama": "Kantor Pak Lurah",
+    "tipe": "Wisata Alam",
     "path": "kantor7",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],

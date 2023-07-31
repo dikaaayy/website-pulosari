@@ -4,7 +4,8 @@ import Wisata from "../components/main/Wisata";
 import Navbar from "../components/navbar/Navbar";
 import ReactPlayer from "react-player";
 import destinasi from "../public/destinasi.json";
-import Carousel from "../components/Carousel";
+import Head from "next/head";
+// import Carousel from "../components/Carousel";
 
 export async function getStaticProps() {
   // Read the JSON data using import
@@ -21,8 +22,11 @@ export async function getStaticProps() {
 export default function Home({ data }) {
   return (
     <>
+      <Head>
+        <title>Beranda | Desa Pulosari</title>
+      </Head>
+      <Navbar />
       <div>
-        <Navbar />
         <div className="w-full flex justify-center items-center h-screen relative font-rubik">
           <div className="flex flex-col items-center">
             <div className="absolute top-0 -z-10">{/*<ReactPlayer url="https://www.youtube.com/watch?v=6NUobbpNFfQ" loop muted playing controls={false} width={"100vw"} height={"120vh"} />*/}</div>

@@ -1,32 +1,46 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
 const NAVBAR_DATA = [
-  { id: 1, name: "Beranda" },
-  { id: 2, name: "Profile Desa" },
-  { id: 3, name: "Destinasi Wisata" },
-  { id: 4, name: "UMKM" },
+  { id: 1, name: "Beranda", route: "/" },
+  { id: 2, name: "Destinasi Wisata", route: "/wisata" },
 ];
 
 export default function Navbar() {
   const [active, setActive] = useState(1);
   const [isNavbarOpened, setIsNavbarOpened] = useState(false);
+  const router = useRouter();
+  useEffect(() => {
+    if (router.asPath === "/") {
+      setActive(1);
+    } else if (router.asPath.includes("/wisata")) {
+      setActive(2);
+    }
+  }, [router.asPath]);
   return (
     <div className="flex w-screen z-20 fixed justify-between items-center px-4 md:px-16 py-5 bg-white md:bg-transparent">
-      <Image src={"/assets/logo-desa.png"} alt="logo desa" width={50} height={50} />
+      <Link href={"/"} legacyBehavior>
+        <a>
+          <Image src={"/assets/logo-desa.png"} alt="logo desa" width={50} height={50} />
+        </a>
+      </Link>
       <div className="uppercase md:flex gap-x-10 font-rubik font-extrabold hidden">
-        {NAVBAR_DATA.map((item) => {
+        {NAVBAR_DATA.map((item, i) => {
           return (
-            <p
-              key={item.id}
-              onClick={() => {
-                setActive(item.id);
-              }}
-              id={item.id}
-              className={`border-[1px] px-4 border-black py-1 rounded-full cursor-pointer ${active === item.id && "bg-black text-white"}`}
-            >
-              {item.name}
-            </p>
+            <Link href={item.route} key={i} legacyBehavior>
+              <a
+                key={item.id}
+                onClick={() => {
+                  setActive(item.id);
+                }}
+                id={item.id}
+                className={`border-[1px] px-4 border-black py-1 rounded-full cursor-pointer ${active === item.id && "bg-black text-white"}`}
+              >
+                {item.name}
+              </a>
+            </Link>
           );
         })}
       </div>
