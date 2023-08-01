@@ -68,11 +68,14 @@ export default function Introduction() {
         </div>
         <div className="py-3 space-y-3">
           <p className="text-4xl md:text-7xl font-indonesiaScript text-white text-center">Pulosari</p>
-          <p className="text-white md:text-lg font-semibold text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat fuga iste vitae quas porro necessitatibus nemo amet, illo ad dicta repellendus provident minima nobis odit. Hic quibusdam amet in cum architecto ipsum
-            incidunt numquam eius optio perspiciatis fugit dignissimos impedit perferendis sunt, nesciunt, aspernatur quia nemo saepe error reiciendis atque non veritatis. Rerum doloremque laborum iure quam molestiae maxime laudantium quas
-            aliquid? Provident quo omnis ad explicabo blanditiis asperiores aliquam minus quia, excepturi assumenda minima! Voluptas earum quasi inventore hic in voluptatibus sed suscipit rerum provident labore repudiandae, nemo itaque qui
-            eveniet minus minima corrupti ea dolore porro? Nostrum!
+          <p className="text-white indent-10 md:text-lg font-semibold text-justify">
+            Terletak di Kecamatan Pangalengan, Kabupaten Bandung, Jawa Barat, Indonesia. Secara geografis, Desa Pulosari berjarak sekitar 43 kilometer di sebelah tenggara Kota Bandung. Desa ini memiliki pesona alam yang sangat menakjubkan
+            dan beragam potensi yang membuatnya sangat menarik untuk dikunjungi.
+          </p>
+          <p className="text-white indent-10 md:text-lg font-semibold text-justify">
+            Desa Pulosari dikelilingi oleh keindahan alam pegunungan yang sungguh memukau, perbukitan hijau, hamparan ladang yang luas, serta pohon-pohon rindang yang menawan menciptakan pemandangan yang sungguh menenangkan dan berhasil
+            mencuri hati par pengunjung. Udara sejuk dan segar juga menambah daya tarik Desa Pulosari sebagai tujuan wisata alam yang banyak dicari. Masyarakat Desa Pulosari juga terkenal dengan keramahannya, dengan adat dan budaya yang
+            kental serta hidup harmonis dengan alam sekitar. Kehidupan sederhana mereka penuh dengan nilai-nilai kearifan lokal, membuat pengunjung merasa sangat hangat dan nyaman ketika berinteraksi dengan mereka.
           </p>
         </div>
       </div>

@@ -27,8 +27,9 @@ export default function Wisata({ data }) {
       <div className="mb-8 flex flex-col lg:flex-row gap-y-3 lg:gap-y-0 lg:gap-x-10 -mx-5">
         <p className="font-bold text-2xl md:text-4xl lg:text-5xl uppercase">Destinasi Wisata</p>
         <p className="text-justify md:text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis hic vitae commodi a, suscipit exercitationem! Minus incidunt reprehenderit doloremque expedita pariatur sit dolorem et exercitationem, ab animi rem ipsam
-          sapiente at error eius eligendi consectetur odit deleniti harum iusto. Ad officiis distinctio nobis provident quos voluptatum numquam nisi voluptatem?
+          Desa Pulosari adalah sebuah destinasi wisata yang memukau dengan keindahan alamnya. Terletak di kaki gunung, desa ini menawarkan pemandangan perbukitan hijau yang menakjubkan, ladang yang luas yang menghijau, dan udara segar yang
+          menyegarkan. Para wisatawan dapat menikmati berbagai kegiatan menarik, seperti hiking melalui jalur-jalur indah, berinteraksi dengan warga yang ramah dan bersahabat, serta merasakan ketenangan dan kedamaian khas pedesaan di Jawa
+          Barat. Kunjungan ke Desa Pulosari adalah pengalaman yang tak terlupakan, yang memanjakan mata dan jiwa dengan pesona alam dan keramahan lokalnya.
         </p>
       </div>
 

@@ -11,7 +11,23 @@ const NAVBAR_DATA = [
 export default function Navbar() {
   const [active, setActive] = useState(1);
   const [isNavbarOpened, setIsNavbarOpened] = useState(false);
+  const [show, setShow] = useState(false);
   const router = useRouter();
+
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY > 200) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    };
+    window.addEventListener("scroll", handler);
+    return () => {
+      window.removeEventListener("scroll", handler);
+    };
+  }, []);
+
   useEffect(() => {
     if (router.asPath === "/") {
       setActive(1);
@@ -20,7 +36,7 @@ export default function Navbar() {
     }
   }, [router.asPath]);
   return (
-    <div className="flex w-screen z-20 fixed justify-between items-center px-4 md:px-5 lg:px-16 py-5 bg-white md:bg-transparent">
+    <div className={`flex w-screen z-20 fixed justify-between transition-all duration-500 ease-in items-center px-4 md:px-5 lg:px-16 py-5 bg-white ${show ? "md:bg-white" : "md:bg-transparent"}`}>
       <Link href={"/"} legacyBehavior>
         <a>
           <Image src={"/assets/logo-desa.png"} alt="logo desa" width={50} height={50} />

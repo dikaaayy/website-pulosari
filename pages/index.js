@@ -27,7 +27,7 @@ export default function Home({ data }) {
         <link rel="icon" href="./assets/logo-desa.png" />
       </Head>
       <Navbar />
-      <div>
+      <div className="cursor-default">
         <div className="w-full flex justify-center items-center h-screen relative font-rubik">
           <div className="flex flex-col items-center">
             <div className="absolute top-0 -z-10">{/*<ReactPlayer url="https://www.youtube.com/watch?v=6NUobbpNFfQ" loop muted playing controls={false} width={"100vw"} height={"120vh"} />*/}</div>
