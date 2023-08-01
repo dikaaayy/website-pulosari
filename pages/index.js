@@ -38,8 +38,6 @@ export default function Home({ data }) {
       </div>
       <Introduction />
       <Wisata data={data} />
-      {/*<Carousel />*/}
-
       <Footer />
     </>
   );

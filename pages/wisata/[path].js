@@ -1,10 +1,8 @@
 import React from "react";
 import destinasi from "../../public/destinasi.json";
 import Navbar from "../../components/navbar/Navbar";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Image from "next/image";
 import { CarouselSetting, getRandomThreeFromArray } from "../../lib/helper";
 import Gallery from "../../components/wisata/Gallery";
 import Slider from "react-slick";
@@ -54,8 +52,8 @@ export default function Wisata({ data, destinations }) {
         <title>{data.nama} | Desa Pulosari</title>
       </Head>
       <Navbar />
-      <div className="pt-32 pb-10 px-5 lg:px-28 font-rubik">
-        <div className="flex items-center -mx-1" onClick={() => router.back()}>
+      <div className="pt-32 pb-10 px-5 lg:px-28 font-rubik cursor-default">
+        <div className="flex items-center -mx-1 cursor-pointer" onClick={() => router.back()}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
           </svg>
@@ -67,7 +65,7 @@ export default function Wisata({ data, destinations }) {
         <Gallery data={data} />
         <GalleryMobile data={data} />
       </div>
-      <div className="bg-[#1ebec0] text-white text-3xl py-8 lg:px-24 rounded-t-[3rem]">
+      <div className="bg-[#1ebec0] text-white text-3xl md:text-4xl lg:text-5xl py-8 lg:py-12 lg:px-24 rounded-t-[3rem]">
         <p className="font-indonesiaScript text-center mb-8">Destinasi Lainnya</p>
         <Slider {...CarouselSetting}>
           {filteredDestinations.map((item, i) => {

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div className="bg-[#198786] w-full flex flex-col gap-y-3 items-center p-5">
-        <p className="font-indonesiaScript text-3xl text-white">Tentang Kami</p>
+        <p className="font-indonesiaScript text-xl md:text-3xl text-white">Tentang Kami</p>
         <div className="flex gap-x-4">
           <Link href={"https://pulosari.desa.id/"} target="_blank">
             <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,10 +31,10 @@ export default function Footer() {
             </svg>
           </Link>
         </div>
-        <p className="text-white font-rubik max-w-lg text-center">RH55+M92, Pulosari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378, Indonesia</p>
+        <p className="text-white text-sm md:text-base font-rubik max-w-lg text-center">RH55+M92, Pulosari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378, Indonesia</p>
       </div>
       <div className="bg-[#249EA0] py-2">
-        <p className="w-full text-center text-sm font-rubik text-white">Developed by Tim KKN-PPM UGM - Kisah Panorama 2023</p>
+        <p className="w-full text-center text-xs md:text-sm font-rubik text-white">Developed by Tim KKN-PPM UGM - Kisah Panorama 2023</p>
       </div>
     </div>
   );
