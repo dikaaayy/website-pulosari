@@ -50,6 +50,7 @@ export default function Wisata({ data, destinations }) {
     <>
       <Head>
         <title>{data.nama} | Desa Pulosari</title>
+        <link rel="icon" href="./assets/logo-desa.png" />
       </Head>
       <Navbar />
       <div className="pt-32 pb-10 px-5 lg:px-28 font-rubik cursor-default">

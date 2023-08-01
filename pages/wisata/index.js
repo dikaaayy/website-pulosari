@@ -22,6 +22,7 @@ export default function index({ data }) {
     <>
       <Head>
         <title>Wisata | Desa Pulosari</title>
+        <link rel="icon" href="./assets/logo-desa.png" />
       </Head>
       <Navbar />
       <div className="bg-[#249EA0] text-white pt-36 pb-5 md:px-28 cursor-default">

@@ -24,6 +24,7 @@ export default function Home({ data }) {
     <>
       <Head>
         <title>Beranda | Desa Pulosari</title>
+        <link rel="icon" href="./assets/logo-desa.png" />
       </Head>
       <Navbar />
       <div>
