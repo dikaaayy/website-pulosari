@@ -41,7 +41,7 @@ export default function Home({ data }) {
             </div>
             <p className="text-4xl md:text-6xl lg:text-8xl uppercase font-black text-white">Desa</p>
             <p className="text-6xl md:text-9xl lg:text-[10rem] font-bold font-indonesiaScript text-yellow-400">Pulosari</p>
-            <p className="font-black text-white backdrop-blur rounded-full py-4 px-10 w-3/4 text-center md:text-lg md:w-full">Kecamatan Pangelangan, Bandung Selatan</p>
+            <p className="font-black text-white backdrop-blur rounded-full py-4 px-10 w-2/3 text-center md:text-lg md:w-full">Kecamatan Pangelangan, Bandung Selatan</p>
           </div>
         </div>
         <svg
@@ -51,11 +51,18 @@ export default function Home({ data }) {
           strokeWidth={1.5}
           stroke="currentColor"
           className="w-12  h-12 cursor-pointer absolute bottom-10 text-white bg-yellow-400 rounded-full p-2 left-0 right-0 mx-auto"
+          onClick={() => {
+            introRef.current.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+              inline: "start",
+            });
+          }}
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75" />
         </svg>
       </div>
-      <Introduction />
+      <Introduction divRef={introRef} />
       <Wisata data={data} />
       <Footer />
     </>
