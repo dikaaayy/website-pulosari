@@ -1,12 +1,16 @@
 [
   {
     "id": 1,
-    "nama": "Padaawas Hills",
+    "nama": "Situ Cileunca",
     "tipe": "Wisata Alam",
-    "path": "padaawas",
+    "path": "situ-cileunca",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HLKhsb2.jpg", "https://iili.io/HLKhPR4.jpg", "https://iili.io/HLKhpUb.jpg", "https://iili.io/HLKhiOl.jpg"],
-    "deskripsi": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "deskripsi": [
+      "Hamparan perairan hijau kebiruan yang dikelilingi deretan pegunungan sebagai latar belakang adalah selayang pandang dari panorama Situ Cileunca. Mungkin sepenggal lirik Lobow yang mengutarakan bahwa “Kau cantik hari ini, dan aku suka” mampu melukiskan betapa memikatnya salah satu destinasi wisata yang menyimpan sejuta pesona. Destinasi wisata Situ Cileunca dapat disambangi di lokasinya yang berada di Desa Pulosari, Kecamatan Pangalengan, Kabupaten Bandung, Jawa Barat.",
+      "Kembali menuju lembaran terdahulu, beberapa catatan sejarah mengatakan bahwa Situ Cileunca awalnya merupakan kawasan hutan belantara milik salah seorang Belanda yang di tanahnya dibangun sebuah waduk pada tahun 1919 – 1926. Dalam proses pembangunannya, terdapat keunikan dari cerita mulut ke mulut yang menyatakan bahwa Situ Cileunca tidak dibangun menggunakan alat pengeruk melainkan dengan alu, alat penumbuk padi. Keberadaan cerita rakyat pun menjadi pelengkap seperti  kata Pak Sumpena (64), pedagang cilor di dekat Cileunca, bahwa di situ sesekali nampak ikan besar yang muncul ke permukaan air. Konon katanya, ikan tersebut merupakan jelmaan seorang jawara yang gugur oleh petarung lainnya hingga berubah wujud menjadi ikan. Namun, layaknya cerita rakyat hendaklah diterima dengan bijak sebagai pengingat untuk selalu menjaga tutur kata dan sikap.",
+      "Seiring berjalannya waktu, danau buatan ini beralih menjadi area yang menarik kunjungan wisatawan khususnya bagi mereka yang ingin menyelami sejuknya udara Pangalengan. Tidak hanya menyajikan wisata berbasis alam, Situ Cileunca menawarkan berbagai jenis wisata olahraga seperti outbound, rafting, arung jeram, flying fox, paintball, serta wisata penginapan seperti camping, glamping, hingga penyewaan akomodasi homestay. Wisatawan juga dapat mengelilingi area situ dengan menaiki perahu kayu yang berada di sekitarnya atau sekadar berjalan-jalan menyeberangi jembatan cinta yang menjadi penghubung dari dua kampung, Cinangsih dan Cibuluh. Hanya dengan merogoh kocek mulai dari Rp6.000, wisatawan bisa memiliki tiket untuk memasuki destinasi wisata Situ Cileunca yang mulai beroperasi dari pukul 07.00 WIB – 17.00 WIB. "
+    ]
   },
   {
     "id": 2,
@@ -15,7 +19,11 @@
     "path": "riung-gunung",
     "thumbnail": "https://iili.io/HLKwm9j.jpg",
     "foto": ["https://iili.io/HZSJUdP.jpg", "https://iili.io/HZS2d91.jpg", "https://iili.io/HLKwS8G.jpg", "https://iili.io/HLKwD8b.jpg"],
-    "deskripsi": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "deskripsi": [
+      "“Swiss-nya Bandung!” kata orang-orang. Mari kita setujui. Walau belum pernah terbang ke sana sungguhan, mungkin 10 tahun ke depan? Doakan. Kembali ke masa sekarang, sependapat dengan ujaran bahwa datang ke destinasi wisata yang satu ini, seperti di film-film, bahkan berasa di Swiss! Untuk merasakan pengalaman itu, cobalah berkunjung ke Riung Gunung, Pangalengan.",
+      "Pangalengan memang terkenal dengan hamparan kebun teh yang menjadi spot andalan. Salah satunya, Nuansa Riung Gunung. Bahkan sebelum sampai ke pintu masuk, selama perjalanan wisatawan akan disuguhi panorama kebun teh yang meliuk dengan amat cantik. Takarannya sangat pas untuk membasuh pandangan dengan menyaksikan deretan bentang alam hijau muda serta angin dan udara yang membelai kelopak mata.",
+      "Di Nuansa Riung Gunung, wisatawan dapat berkeliling kebun teh, menyusuri jalan di sela-sela deretan tanaman atau berjalan mengikuti jembatan kayu sampai ke ujung lalu mengabadikan momen. Ide yang bagus apabila dapat memperpanjang kunjungan dengan menyewa tenda atau penginapan yang tersedia. Dengan menukar satu tiket senilai Rp 10.000, wisatawan dapat memasuki area destinasi. Bukan hal yang disayangkan pula, apabila ingin menyewa ATV yang tersedia sambil mengelilingi Swiss-nya Bandung yang satu ini."
+    ]
   },
   {
     "id": 3,
