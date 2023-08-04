@@ -29,7 +29,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const path = context.params.path;
-  //   console.log(context);
   const datas = destinasi.filter((item) => item.path == path);
   const data = datas[0];
 
@@ -62,7 +61,13 @@ export default function Wisata({ data, destinations }) {
         </div>
         <p className="text-[#249EA0] mt-5 font-extrabold text-6xl lg:text-7xl">{data.nama}</p>
         <p className="text-[#B3B3B3] font-medium text-3xl my-3 lg:text-4xl">{data.tipe}</p>
-        <p className="text-justify font-medium">{data.deskripsi}</p>
+        {data.deskripsi.map((item, i) => {
+          return (
+            <p key={i} className={`text-justify indent-10 font-medium ${i !== 0 && "my-3"}`}>
+              {item}
+            </p>
+          );
+        })}
         <Gallery data={data} />
         <GalleryMobile data={data} />
       </div>

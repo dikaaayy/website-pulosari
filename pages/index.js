@@ -33,15 +33,15 @@ export default function Home({ data }) {
         <link rel="icon" href="./assets/logo-desa.png" />
       </Head>
       <Navbar />
-      <div className="cursor-default relative">
+      <div className="cursor-default relative overflow-hidden">
         <div className="w-full flex justify-center items-center h-screen relative font-rubik">
           <div className="flex flex-col items-center">
-            <div className="absolute top-0 -z-10 overflow-hidden aspect-video w-full">
+            <div className="absolute top-0 -z-10 overflow-hidden aspect-video lg:w-full h-screen lg:h-auto">
               <DynamicReactPlayer url="/assets/situ.mp4" loop muted playing controls={false} width={"100%"} height={"100%"} />
             </div>
             <p className="text-4xl md:text-6xl lg:text-8xl uppercase font-black text-white">Desa</p>
             <p className="text-6xl md:text-9xl lg:text-[10rem] font-bold font-indonesiaScript text-yellow-400">Pulosari</p>
-            <p className="font-black text-white backdrop-blur rounded-full py-4 px-10 w-2/3 text-center md:text-lg md:w-full">Kecamatan Pangelangan, Bandung Selatan</p>
+            <p className="font-black text-white text-sm backdrop-blur rounded-full py-3 px-8 md:py-4 md:px-10 text-center md:text-lg md:w-full">Kecamatan Pangelangan, Bandung Selatan</p>
           </div>
         </div>
         <svg
@@ -54,7 +54,7 @@ export default function Home({ data }) {
           onClick={() => {
             introRef.current.scrollIntoView({
               behavior: "smooth",
-              block: "center",
+              block: "start",
               inline: "start",
             });
           }}

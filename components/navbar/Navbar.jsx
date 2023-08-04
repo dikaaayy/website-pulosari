@@ -79,16 +79,17 @@ export default function Navbar() {
           <div className="fixed drop-shadow-2xl bg-white flex flex-col justify-center items-center gap-y-2 py-4 top-20 w-full left-0 z-30 px-7">
             {NAVBAR_DATA.map((item) => {
               return (
-                <p
-                  onClick={() => {
-                    setActive(item.id);
-                    setIsNavbarOpened(false);
-                  }}
-                  className={`w-full text-center font-semibold uppercase py-4 mx-4 ${active === item.id && "bg-black text-white"}`}
-                  key={item.id}
-                >
-                  {item.name}
-                </p>
+                <Link legacyBehavior href={item.route} key={item.id}>
+                  <a
+                    onClick={() => {
+                      setActive(item.id);
+                      setIsNavbarOpened(false);
+                    }}
+                    className={`w-full text-center font-semibold uppercase py-4 mx-4 ${active === item.id && "bg-black text-white"}`}
+                  >
+                    {item.name}
+                  </a>
+                </Link>
               );
             })}
           </div>

@@ -62,8 +62,8 @@ export default function Introduction({ divRef }) {
         />
       </svg>
       <p className="text-2xl md:text-4xl lg:text-5xl font-rubik md:mb-20 mb-10 text-center font-semibold text-yellow-400">MENGENAL LEBIH DEKAT</p>
-      <div className="bg-gradient-to-b from-yellow-400 to-yellow-600 mx-10 gap-x-10 md:w-2/3 md:mx-auto rounded-3xl p-5 flex flex-col items-center md:flex-row">
-        <div className="basis-[200%] relative w-full h-[35vh]">
+      <div className="bg-gradient-to-b from-yellow-400 to-yellow-600 mx-10 gap-x-10 md:w-2/3 md:mx-auto rounded-3xl p-5 flex flex-col items-center lg:flex-row">
+        <div className="lg:basis-[200%] basis-auto relative w-full h-[35vh]">
           <Image src={"/assets/map-pulo.png"} alt="map desa pulosari" layout="fill" objectFit="contain" />
         </div>
         <div className="py-3 space-y-3">
