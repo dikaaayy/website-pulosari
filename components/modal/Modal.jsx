@@ -14,7 +14,7 @@ export default function Modal({ closeModal, activePictureId, photos }) {
     <Backdrop onClick={closeModal}>
       <motion.div
         onClick={(e) => e.stopPropagation()}
-        className="relative m-auto h-[50vh] w-1/2 rounded-lg bg-[#080c0d] pb-5 scrollbar-hide"
+        className="relative m-auto h-[50vh] w-1/2 rounded-lg bg-[#080c0d] pb-5"
         variants={{
           hidden: {
             opacity: 1,

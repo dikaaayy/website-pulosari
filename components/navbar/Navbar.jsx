@@ -1,7 +1,9 @@
+import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const NAVBAR_DATA = [
   { id: 1, name: "Beranda", route: "/" },
@@ -75,25 +77,45 @@ export default function Navbar() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
-        {isNavbarOpened && (
-          <div className="fixed drop-shadow-2xl bg-white flex flex-col justify-center items-center gap-y-2 py-4 top-20 w-full left-0 z-30 px-7">
-            {NAVBAR_DATA.map((item) => {
-              return (
-                <Link legacyBehavior href={item.route} key={item.id}>
-                  <a
-                    onClick={() => {
-                      setActive(item.id);
-                      setIsNavbarOpened(false);
-                    }}
-                    className={`w-full text-center font-semibold uppercase py-4 mx-4 ${active === item.id && "bg-black text-white"}`}
-                  >
-                    {item.name}
-                  </a>
-                </Link>
-              );
-            })}
-          </div>
-        )}
+        <AnimatePresence initial={false} mode="wait" onExitComplete={() => null}>
+          {isNavbarOpened && (
+            <motion.div
+              className="fixed drop-shadow-2xl bg-white flex flex-col justify-center items-center gap-y-2 py-4 top-20 w-full left-0 z-20 px-7"
+              variants={{
+                hidden: {
+                  y: "-10vh",
+                  opacity: 1,
+                },
+                visible: {
+                  y: 0,
+                  transition: {
+                    duration: 0.1,
+                  },
+                  opacity: 1,
+                },
+              }}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+            >
+              {NAVBAR_DATA.map((item) => {
+                return (
+                  <Link legacyBehavior href={item.route} key={item.id}>
+                    <a
+                      onClick={() => {
+                        setActive(item.id);
+                        setIsNavbarOpened(false);
+                      }}
+                      className={`w-full text-center font-semibold uppercase py-4 mx-4 ${active === item.id && "bg-black text-white"}`}
+                    >
+                      {item.name}
+                    </a>
+                  </Link>
+                );
+              })}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
