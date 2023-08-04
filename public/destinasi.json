@@ -27,24 +27,28 @@
   },
   {
     "id": 3,
-    "nama": "Kantor Pak Lurah",
+    "nama": "Wanawisata Rahong",
     "tipe": "Wisata Alam",
-    "path": "kantor2",
+    "path": "wanawisata-rahong",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
     "deskripsi": [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "Coba bayangkan, duduk bersila di teras tenda. Berbincang tentang apakah lalat ikut tidur di malam hari juga atau mengapa kisah cintamu tidak seberuntung mereka, sambil mengupas pinggiran roti tawar lalu mencelupkannya ke dalam segelas susu hangat atau apapun minuman favoritmu itu. Kemudian riung pepohonan pinus tiba-tiba menjadi pemandanganmu tepat setelah membuka mata. Kalimat kalimat itu adalah cuplikan singkat dari sepotong memori yang terekam apabila kamu ikut bernaung dalam teduhnya wanawisata Rahong, Pangalengan. Rahong masih menjadi destinasi yang harus dikunjungi ketika menyempatkan diri untuk berwisata ke Desa Pulosari.",
+      "Tidak ada mitos atau cerita rakyat fenomenal yang tersimpan di sini. Namun, terdapat keunikan dan kekentalan budaya lokal yakni penduduk asli yang masih menempati lereng pegunungan hutan pinus yang menjadi primadona wisatawan ibu kota. Alih-alih berpindah menuju pemukiman penduduk yang lebih dekat dengan pusat kota, mereka memilih untuk mendekap dan menjaga tanah dan rumahnya. (TANYA TEH ANGGI/DENGERIN RECORD).",
+      "Terbalut potensi alam serta terselip nilai kebudayaan, kawasan wisata Rahong terdiri dari beberapa operator wisata yang masing-masing menawarkan kebolehannya, mulai dari camping sederhana hingga glamping yang serba ada. Wisatawan dapat memesan tenda dengan beragam harga. Fasilitas yang disediakan pun menyesuaikan pilihan dan permintaan. Selain mendapat pengalaman staycation di bawah rerimbunan pohon pinus yang menjulang, di wanawisata Rahong wisatawan berkesempatan merasakan riak aliran sungai yang menjadi jalur wisata olahraga rafting. Bagaimana, keseruan sudah tergambar di depan matamu, bukan? "
     ]
   },
   {
     "id": 4,
-    "nama": "Kantor Pak Lurah",
+    "nama": "Kampung Cibuluh",
     "tipe": "Wisata Alam",
-    "path": "kantor3",
+    "path": "kampung-cibuluh",
     "thumbnail": "https://iili.io/HLKj9Jj.jpg",
     "foto": ["https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg", "https://iili.io/HsxwOFa.jpg"],
     "deskripsi": [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "Perkebunan dan Pariwisata adalah dua potensi utama yang dapat dijumpai di Desa Pulosari. Kampung Agrowisata Cibuluh hadir dengan menawarkan perpaduan antara komoditas unggulan perkebunan dan wisata edukatif. Menjadi saksi keindahan Situ Cileunca, Kampung Cibuluh berada di tengah area bendungan raksasa ini.",
+      "Dilansir dari balebandung.com, Kampung Agrowisata Cibuluh dicetuskan berdasarkan program Penataan Lingkungan Permukiman Berbasis Komunitas (PLBK) dalam mewujudkan Bandung 1.000 kampung. Berkat diresmikannya Kampung Cibuluh sebagai Agrowisata, permasalahan sosial dan lingkungan mulai teratasi. Kedatangan wisatawan juga mendorong perekonomian masyarakat yang sebagian besar berprofesi sebagai petani kebun dan peternak.",
+      "Di Agrowisata Cibuluh, wisatawan dapat berkeliling mengunjungi kebun jeruk, strawberry, lobak, kol, hingga kebun arben. Tidak hanya itu, wisatawan dapat memetik sendiri hasil panen lengkap dengan keranjang buah yang disediakan. Di kebun strawberry, wisatawan dikenakan tarif tiket masuk senilai Rp10.000/orang dengan biaya Rp50.000/keranjang strawberry. Di kebun arben, wisatawan bisa mendapatkan tiket masuk dengan harga Rp5.000/orang serta hanya perlu membayar Rp10.000/keranjang arben. Sedangkan, untuk wisata kebun jeruk, wisatawan dewasa dikenakan tarif Rp10.000 dan anak-anak Rp5.000 dengan biaya petik buah senilai Rp25.000/kg. Bagi wisatawan yang ingin merasakan pengalaman bermalam di Kampung Cibuluh, tersedia homestay di tengah pemukiman warga bahkan kamu dapat menemukannya di tepian Situ Cileunca. Sangat cocok bagi wisatawan yang mengharap senja dan rona merahnya."
     ]
   },
   {
