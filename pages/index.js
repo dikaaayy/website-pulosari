@@ -41,7 +41,7 @@ export default function Home({ data }) {
             </div>
             <p className="text-4xl md:text-6xl lg:text-8xl uppercase font-black text-white">Desa</p>
             <p className="text-6xl md:text-9xl lg:text-[10rem] font-bold font-indonesiaScript text-yellow-400">Pulosari</p>
-            <p className="font-black text-white text-sm backdrop-blur rounded-full py-3 px-8 md:py-4 md:px-10 text-center md:text-lg md:w-full">Kecamatan Pangelangan, Bandung Selatan</p>
+            <p className="font-black text-white text-sm backdrop-blur rounded-full py-3 px-8 md:py-4 md:px-12 text-center md:text-lg  ">Kecamatan Pangelangan, Bandung</p>
           </div>
         </div>
         <svg
